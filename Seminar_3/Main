@@ -1,0 +1,15 @@
+public class Main extends InfoFromUser {
+    public static void main(String[] args) {
+        try{
+            insert();
+            System.out.println("+");
+        }
+        catch (MyOwnException e){
+            System.out.println(e.getMessage());
+        }
+        catch (Exception e ){
+            System.out.println(e.getStackTrace());
+        }
+
+    }
+}

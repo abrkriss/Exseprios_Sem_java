@@ -1,0 +1,5 @@
+public class MyOwnException extends Exception{
+    public MyOwnException(){
+        super("Проблема при работе с файлом");
+    }
+}
